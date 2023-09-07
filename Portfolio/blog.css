@@ -1,0 +1,212 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    height: 100vh;
+    background-color: #607d8b;
+  }
+  
+  h1 {
+    color: #241d1d;
+  }
+  
+  h2 {
+    background-color: #7e949f;
+    color: #123a42;
+    padding: 5px;
+  }
+  
+  .title {
+    font-size: 45px;
+  }
+  
+  p {
+    color: hsl(235, 33%, 7%);
+    font-size: 18px;
+  }
+  
+  .custom-color {
+    background-color: #607d8b;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-bottom: 40px;
+  }
+  
+  .text-container {
+    background-color: rgba(211, 211, 211, 0.464);
+    padding: 10px;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+    padding-top: 40px;
+  }
+  
+  .col-md-6 {
+    flex-basis: 50%;
+    padding: 0 10px;
+  }
+  
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .navbar-nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 150px;
+    /* Adjust the value as needed for the desired spacing */
+    padding-top: 50px;
+  }
+  
+  @media (max-width: 768px) {
+    .navbar-nav {
+        justify-content: flex-end;
+        padding-right: 20px;
+        /* Adjust the value as needed for the desired spacing */
+    }
+  }
+  
+  .navbar-nav li {
+    margin-left: 20px;
+    /* Adjust the left margin as needed for the desired spacing */
+    font-size: 25px;
+    /* Adjust the font size as needed */
+  }
+  
+  .navbar-text {
+    font-size: 30px;
+    /* Adjust the font size as needed */
+    font-family: "Arial", sans-serif;
+    color: #fff;
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+  
+  .navbar-nav.ml-auto {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+  }
+  
+  ul li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  a.linkedin-link {
+    color: #2e0bc9;
+  }
+  
+  footer {
+    background-color: rgb(34, 37, 41);
+    padding: 0 10px;
+    text-align: center;
+  }
+  
+  .footerContainer {
+    width: 100%;
+    padding: 10px 30px;
+    min-height: 80px;
+  }
+  
+  .socialIcons {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .socialIcons a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+  }
+  
+  .socialIcons i {
+    font-size: 2em;
+    color: black;
+    opacity: 0.9;
+  }
+  
+  /*Hower Effects on Social Media Icons */
+  .socialIcons a:hover {
+    background-color: #111;
+    transform: 0.5s;
+  }
+  
+  .socialIcons a:hover i {
+    color: white;
+    transition: 0.5s;
+  }
+  
+  .footerNav {
+    margin: 20px 0;
+  }
+  
+  .footerNav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+  }
+  
+  .footerNav ul li a {
+    color: white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+  }
+  
+  .footerNav ul li a:hover {
+    opacity: 1;
+  }
+  
+  .footerBottom {
+    background-color: rgb(34, 37, 41);
+    color: white;
+    padding: 0 10px;
+    text-align: center;
+  }
+  
+  .footerBottom b {
+    color: white;
+  }
+  
+  .footerBottom p {
+    color: rgb(179, 184, 193);
+    /* Replace #ff0000 with your desired color value */
+    font-size: small;
+  }
+  
+  .footerBottom .designer {
+    color: #1880f0;
+    opacity: 0.7;
+  }
+  
